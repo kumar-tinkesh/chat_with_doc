@@ -1,0 +1,80 @@
+Question: write three point of quality policy
+Answer: 1.  To consistently provide medical devices and services that meet or exceed customer and regulatory requirements.
+2.  To establish and maintain a quality management system that is effective in preventing and detecting nonconformities.
+3.  To continually improve the effectiveness of the quality management system.
+
+Question: explain this document in berief
+Answer: This document is an ISO standard that provides requirements for a quality management system (QMS) for organizations that design, develop, manufacture, install, and service medical devices. The purpose of the standard is to ensure that medical devices are safe and effective for their intended use.
+
+The standard is divided into 10 sections, which cover the following topics:
+
+* Scope
+* Normative references
+* Terms and definitions
+* Quality management system
+* Management responsibility
+* Resource management
+* Product realization
+* Measurement, analysis, and improvement
+
+The standard requires organizations to establish and maintain a QMS that meets the requirements of the standard. The QMS must be documented and must be implemented and maintained by all employees of the organization.
+
+The standard also requires organizations to conduct regular audits of their QMS to ensure that it is effective and is being followed.
+
+The standard is intended to be used by organizations of all sizes and types that are involved in the design, development, manufacture, installation, and service of medical devices.
+
+Question: explain iso
+Answer: ISO 13485 is an international standard that sets out the requirements for a quality management system (QMS) for the medical devices industry. It is intended to help organizations in the medical devices industry to consistently provide medical devices that meet customer and regulatory requirements.
+
+ISO 13485 is based on the ISO 9001 standard, which is a generic QMS standard that can be used by organizations in any industry. However, ISO 13485 includes additional requirements that are specific to the medical devices industry, such as requirements for risk management, design and development, production and service, and post-market surveillance.
+
+ISO 13485 is a voluntary standard, but it is often required by regulatory authorities in many countries. It is also a valuable tool for organizations in the medical devices industry to improve their quality management systems and to ensure that they are consistently producing safe and effective medical devices.
+
+Question: what is iso with example
+Answer: ISO stands for International Organization for Standardization. It is an independent, non-governmental organization that develops and publishes international standards. ISO standards are voluntary, but they are widely used by businesses and governments around the world.
+
+One example of an ISO standard is ISO 9001, which specifies requirements for a quality management system. ISO 9001 is used by organizations of all sizes and in all industries to improve their quality management processes.
+
+Question: what is iso
+Answer: ISO is the International Organization for Standardization. It is a worldwide federation of national standards bodies (ISO member bodies).
+
+Question: tell me about the document
+Answer: ISO 13485:2016 specifies requirements for a quality management system where an organization needs to demonstrate its ability to provide medical devices and related services that consistently meet customer and applicable regulatory requirements. It can also be used by suppliers or external parties that provide product, including quality management system-related services to such organizations.
+
+Question: what is iso
+Answer: ISO is the International Organization for Standardization. It is a worldwide federation of national standards bodies (ISO member bodies).
+
+Question: three point about iso
+Answer: This context does not mention anything about three point about iso, so I cannot extract the requested data from the provided context.
+
+Question: write three point about iso
+Answer: 1. ISO stands for International Organization for Standardization.
+2. It is a worldwide federation of national standards bodies.
+3. Its mission is to promote the development of standardization and related activities in the world with a view to facilitating international exchange of goods and services.
+
+Question: what is enviroment
+Answer: Environment is defined as the sum total of water, air, land and the inter -relationships that exist among them and with the human beings, other living organisms and materials.
+
+Question: create vulnerability managament plan
+Answer: This context does not mention anything about vulnerability management plan, so I cannot extract the requested data from the provided context.
+
+Question: what is enviroment
+Answer: Environment is defined as the sum total of water, air, land and the inter -relationships that exist among them and with the human beings, other living organisms and materials.
+
+Question: what is iso explain
+Answer: ISO (the International Organization for Standardization) is a worldwide federation of national standards bodies (ISO member bodies). The work of preparing International Standards is normally carried out through ISO technical committees. Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee. International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.
+
+Question: what is quality policy
+Answer: A quality policy is a statement of the overall quality goals and direction of an organization. It is a commitment to provide products and services that meet customer and regulatory requirements and to continually improve the quality management system.
+
+Question: Scope of environmental Sciences
+Answer: The scope of environmental studies is extremely wide and covers some aspects of nearly every major discipline. They may be summarized as follows:
+
+1. Natural resources - their conservation and management
+2. Ecology and management
+3. Environmental pollution and control
+4. Social issues in relation to development and environment
+5. Human population and environment
+
+These are the basic aspects of environmental studies which have a direct relevance to every section of the society.
+
