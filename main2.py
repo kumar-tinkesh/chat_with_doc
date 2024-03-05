@@ -126,35 +126,25 @@ def clean_text(output_text):
 def main():
     try:
         log_event("Starting the program")
-        # st.title("ISO Document Question Answering")
-
         default_pdf_path = "docs/ISO+13485-2016.pdf"
 
-        # Check if a file is uploaded, otherwise, use the default PDF file
-        uploaded_file = st.sidebar.file_uploader("Upload a PDF", type="pdf")
-        if uploaded_file is None:
-            uploaded_file = open(default_pdf_path, 'rb')
+        uploaded_file = open(default_pdf_path, 'rb')
 
         if uploaded_file is not None:
             st.write('ISO File uploaded successfully.')
             text = get_text_from_pdf(uploaded_file)
             chunk = get_text_chunks(text)
             vector = get_vector_store(chunk)
-            # st.write('Vector is created.')
 
             user_question = st.text_input("Ask a Question from document")
-            if st.button("Get Answer"):
-                answer_text, raw_answer = user_input(user_question, chunk)
-                st.write("**Answer:**")
-                st.write(answer_text)
-                print(answer_text)
+            col1, col2 = st.columns([5, 1])  # Divide layout into two columns, ratio 3:1
+            with col2:
+                if st.button("Get Answer"):
+                    answer_text, raw_answer = user_input(user_question, chunk)
+                    st.write("**Answer:**")
+                    st.write(answer_text)
+                    print(answer_text)
 
-        show_chat_history = st.button("Show Chat History")
-        if show_chat_history:
-            st.subheader("Chat History")
-            with open("chat_history.txt", "r") as f:
-                chat_history = f.read()
-                st.text(chat_history)
     except Exception as e:
         print(f"An error occurred: {e}")
         st.write("Oops! An error occurred.")

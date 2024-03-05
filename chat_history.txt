@@ -78,3 +78,6 @@ Answer: The scope of environmental studies is extremely wide and covers some asp
 
 These are the basic aspects of environmental studies which have a direct relevance to every section of the society.
 
+Question: what is iso
+Answer: ISO is the International Organization for Standardization.
+
