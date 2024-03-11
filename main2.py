@@ -13,6 +13,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
+
 try:
     load_dotenv()
     os.getenv("GOOGLE_API_KEY")
@@ -126,7 +127,7 @@ def clean_text(output_text):
 def main():
     try:
         log_event("Starting the program")
-        default_pdf_path = "docs/ISO+13485-2016.pdf"
+        default_pdf_path = "/Users/macbook/Desktop/test/docs/ISO+13485-2016.1.pdf"
 
         uploaded_file = open(default_pdf_path, 'rb')
 
@@ -137,13 +138,14 @@ def main():
             vector = get_vector_store(chunk)
 
             user_question = st.text_input("Ask a Question from document")
-            col1, col2 = st.columns([5, 1])  # Divide layout into two columns, ratio 3:1
+            col1, col2 = st.columns([5, 1])  # Divide layout into two columns, ratio 5:1
             with col2:
                 if st.button("Get Answer"):
                     answer_text, raw_answer = user_input(user_question, chunk)
-                    st.write("**Answer:**")
-                    st.write(answer_text)
-                    print(answer_text)
+                    with col1:  # Moved inside this block to ensure it's assigned before usage
+                        st.write("**Answer:**")
+                        st.write(answer_text)
+                        print(answer_text)
 
     except Exception as e:
         print(f"An error occurred: {e}")
