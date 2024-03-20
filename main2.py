@@ -127,7 +127,7 @@ def clean_text(output_text):
 def main():
     try:
         log_event("Starting the program")
-        default_pdf_path = "/Users/macbook/Desktop/test/docs/ISO+13485-2016.1.pdf"
+        default_pdf_path = "/Users/macbook/Desktop/iso_chat/docs/ISO+13485-2016.1.pdf"
 
         uploaded_file = open(default_pdf_path, 'rb')
 
@@ -150,6 +150,5 @@ def main():
     except Exception as e:
         print(f"An error occurred: {e}")
         st.write("Oops! An error occurred.")
-
 if __name__ == "__main__":
     main()
