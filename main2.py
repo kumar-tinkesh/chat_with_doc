@@ -127,7 +127,7 @@ def clean_text(output_text):
 def main():
     try:
         log_event("Starting the program")
-        default_pdf_path = "/Users/macbook/Desktop/iso_chat/docs/ISO+13485-2016.1.pdf"
+        default_pdf_path = "/Users/macbook/Desktop/iso_chat/docs/ISO+13485-2016.pdf"
 
         uploaded_file = open(default_pdf_path, 'rb')
 
